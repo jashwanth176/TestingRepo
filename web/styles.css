@@ -1,0 +1,26 @@
+:root {
+  --accent: #336699;
+  --surface: #f5f7fa;
+}
+
+body {
+  background: var(--surface);
+  color: #243447;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.card {
+  background: white;
+  border: 1px solid #d9e2ec;
+  margin: 4rem auto;
+  max-width: 32rem;
+  padding: 2rem;
+}
+
+button {
+  background: var(--accent);
+  border: 0;
+  color: white;
+  padding: 0.6rem 1rem;
+}
