@@ -17,4 +17,8 @@ public class Demo {
     public int size() {
         return values.size();
     }
+
+    public boolean isEmpty() {
+        return values.isEmpty();
+    }
 }

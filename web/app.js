@@ -6,6 +6,10 @@ function setMessage(value) {
   message.textContent = value;
 }
 
+function getStatus() {
+  return message.textContent;
+}
+
 refresh.addEventListener("click", () => {
   title.textContent = "Updated";
   setMessage("The page was refreshed.");

@@ -9,3 +9,7 @@ export function formatGreeting(value: Greeting): string {
 export function formatCount(count: number): string {
   return `Count: ${count}`;
 }
+
+export function isNamed(value: Greeting): boolean {
+  return value.name.trim().length > 0;
+}
